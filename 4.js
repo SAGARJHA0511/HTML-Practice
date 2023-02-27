@@ -1,9 +1,9 @@
 // check if the number is positive
 
-const number = prompt("Enter a number: ");
+const number = prompt("Enter a Number: ");
 
 // check if number is greater than 0
-if (number > 0) {
+if (number > 3) {
  // the body of the if statement
   console.log("The number is positive");
 }
