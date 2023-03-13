@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="type"></p>
+    <script>
+         const names  = {firstName:'Suraj',
+                        secondName:'Oggy',
+                        thirdName :'Omkar'};
+        let value = '';
+        
+        //using for in loop
+        for (let item in names) {
+            value += names[item] + '<br>';
+        }
+        document.getElementById("type").innerHTML = value;
+    </script>
+    
+</body>
+</html>
