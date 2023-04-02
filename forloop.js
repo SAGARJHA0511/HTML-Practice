@@ -6,7 +6,7 @@ for(var z in zee) {
     i++;  
 }  
 
-console.log('zee');*/
+console.log('zee');
  
 x=10;   
 var x;  
@@ -17,4 +17,10 @@ function sum(a,b)
 {  
 return a+b;  
 }  
-console.log(z)
+console.log(z)*/ 
+
+
+     const x = 16;  
+     x = 23;     
+
+
