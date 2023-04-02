@@ -1,8 +1,7 @@
-<html>   
+<!--<html>   
   
 <head>   
 </head>   
-  
 <body>  
    <script>   
 var oggy = fun(12, 30);  
@@ -13,5 +12,35 @@ return x * y;
 document.write(oggy);  
     </script>   
 </body>   
+  </html> -->
+
+
+
+
+  <!DOCTYPE html>
+
+<html>  
+<head>  
+<title>dropdown menu </title>  
+</head>  
+<script>  
+function favTeam() {  
+var mylist = document.getElementById("myList");  
+document.getElementById("favourite").value = mylist.options[mylist.selectedIndex].text;  
+}  
+</script>  
   
-</html>  
+<body>  
+<form>  
+<select id = "myList" onchange = "favTeam()" >  
+<option> ---Choose team--- </option>  
+<option> MI </option>  
+<option> CSK </option>  
+<option> RCB </option>  
+<option> KKR </option>  
+</select>  
+<p> Your selected team is:   
+<input type = "text" id = "favourite" size = "20" </p>  
+</form>  
+</body>  
+</html>    
