@@ -17,7 +17,7 @@ function sum(a,b)
 {  
 return a+b;  
 }  
-console.log(z)*/ 
+console.log(z)*/
 
 
      const x = 16;  
