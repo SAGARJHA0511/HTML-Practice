@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,18 @@
     </script>
     
 </body>
-</html>
+</html>-->
+<script>  
+    var array=["you","me","I","you","me","I"];  
+    function reduceDuplicates(new_array){  
+    let collect=new_array.reduce(function (a,b){  
+    if(a.indexOf(b)<0) a.push(b);  
+    return a;  
+    },[]);  
+    return collect;  
+    }  
+    console.log(reduceDuplicates(array));  
+    </script>  
     
      
     
