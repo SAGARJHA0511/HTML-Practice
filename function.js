@@ -1,4 +1,4 @@
-var x=1;
+/*var x=1;
 a();
 b();
 console.log(x);
@@ -11,5 +11,15 @@ function a() {
 function b(){
     var x=100;
     console.log(x);
-    
+
+}*/
+
+var a =10;
+function b(){
+    var x=10;
+
 }
+//console.log(window.a);
+console.log(a);
+console.log(x);
+
