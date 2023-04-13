@@ -12,7 +12,7 @@ function b(){
     var x=100;
     console.log(x);
 
-}*/
+}
 
 var a =10;
 function b(){
@@ -21,5 +21,7 @@ function b(){
 }
 //console.log(window.a);
 console.log(a);
-console.log(x);
+console.log(x);*/
+
+
 
