@@ -21,7 +21,7 @@ function b(){
 }
 //console.log(window.a);
 console.log(a);
-console.log(x);*/
+console.log(x);
 
 
 function x(){
@@ -37,5 +37,17 @@ function x(){
     }
     console.log("Hello Oggy");
 }
-x();
+x();*/
+
+function attachEventListeners(){
+    let count = 0;
+    document.getElementById("clickMe")
+     .addEventListener("click",function  z(){
+        console.log("Button Clicked", ++count);
+
+    })
+}
+attachEventListeners();
+
+
 
