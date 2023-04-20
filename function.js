@@ -37,7 +37,7 @@ function x(){
     }
     console.log("Hello Oggy");
 }
-x();*/
+x();
 
 function attachEventListeners(){
     let count = 0;
@@ -47,7 +47,15 @@ function attachEventListeners(){
 
     })
 }
-attachEventListeners();
+attachEventListeners();*/
+
+console.log("Start");
+document.getElementById("button")
+.addEventListener("click", function callback(){
+
+
+});
+console.log("End")
 
 
 
