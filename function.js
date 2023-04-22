@@ -55,7 +55,7 @@ document.getElementById("button")
 
 
 });
-console.log("End")*/
+console.log("End")
 
 
 var x= 1000;
@@ -76,8 +76,17 @@ function second(){
 }
 
  first();
- second();
+ second();*/
 
+ console.log("Start");
+
+ setTimeout(function cb(){
+    console.log("callback");
+
+
+ } , 5000)
+
+ 
 
 
 
