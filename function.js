@@ -47,7 +47,7 @@ function attachEventListeners(){
 
     })
 }
-attachEventListeners();*/
+attachEventListeners();
 
 console.log("Start");
 document.getElementById("button")
@@ -55,7 +55,30 @@ document.getElementById("button")
 
 
 });
-console.log("End")
+console.log("End")*/
+
+
+var x= 1000;
+
+
+console.log(x);
+
+function x(){
+    var first=("hello");
+    console.log(first);
+
+}
+
+function x(){
+    var second=("oggy");
+    console.log(second);
+
+}
+
+function A();
+function B();
+
+
 
 
 
