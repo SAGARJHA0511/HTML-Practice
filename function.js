@@ -63,20 +63,20 @@ var x= 1000;
 
 console.log(x);
 
-function x(){
-    var first=("hello");
-    console.log(first);
+function first(){
+    var x=("hello");
+    console.log(x);
 
 }
 
-function x(){
-    var second=("oggy");
-    console.log(second);
+function second(){
+    var x=("oggy");
+    console.log(x);
 
 }
 
-function A();
-function B();
+ first();
+ second();
 
 
 
