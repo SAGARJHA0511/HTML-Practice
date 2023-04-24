@@ -84,7 +84,7 @@ function second(){
     console.log("callback");
 
 
- } , 5000)*/
+ } , 5000)
 
  console.log("Start");
 
@@ -102,7 +102,20 @@ function second(){
 
  }
     
-   console.log("While Expires");
+   console.log("While Expires");*/
+
+   
+
+//  Higher orader function
+
+   function x (){
+    console.log ("oggy");
+
+   }
+   function y(x);{
+   x();
+   }
+
 
 
 
