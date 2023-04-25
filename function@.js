@@ -1,6 +1,6 @@
 // function statement 
 
-function a(){
+/*function a(){
     console.log("a called ");
 
 }
@@ -15,7 +15,7 @@ b();
 
 // function anonymous 
 
-function/* used as value */ (){
+function/* used as value  (){
 
 }
 
@@ -25,5 +25,15 @@ var b = function xyz(){
     console.log("b called");
 
 }
-b()
+b()*/
+
+// binary
+
+const arr=[5,3,2,6];
+
+const output = arr.map((x)=> x.toString(2));
+
+console.log(output);
+
+
 

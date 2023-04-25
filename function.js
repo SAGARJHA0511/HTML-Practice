@@ -102,9 +102,9 @@ function second(){
 
  }
     
-   console.log("While Expires");*/
+   console.log("While Expires");
 
-   
+
 
 //  Higher orader function
 
@@ -114,10 +114,9 @@ function second(){
    }
    function y(x);{
    x();
-   }
+   }*/
 
-
-
+   
 
 
 
