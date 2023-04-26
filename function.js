@@ -116,7 +116,42 @@ function second(){
    x();
    }*/
 
-   
+  
+
+const user=[
+    {firstName:"akshya ", lastName:"neje",age:"23"},
+    {firstName:"oggy ", lastName:"gang",age:"101"},
+    {firstName:"deepika ", lastName:"kale",age:"23"},
+    {firstName:"rohit ", lastName:"sharma",age:"38"},
+
+];
+
+const output=user.reduce (function(acc,curr){
+    if (acc[curr.age]){
+        acc[curr.age]=++acc[curr.age];
+
+    }else{
+        acc[curr.age]=1;
+    }
+    return acc;
+
+},{});
+
+console.log(output);
+
+
+const outputs=user.reduce(function(acc,curr){
+    if(curr.age<30){
+        acc.push(curr.firstName);
+
+    }
+    return acc;
+
+},[]);
+
+console.log(outputs);
+
+
 
 
 
