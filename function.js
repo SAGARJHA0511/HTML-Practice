@@ -116,9 +116,30 @@ function second(){
    x();
    }*/
 
-  
+   // redues ------------------------------------------------------------------------------------------ 
 
-const user=[
+   const arr= [4,5,3];
+
+   function findSum(arr){
+    let  sum=0;
+    for (let i=0; i<arr.length; i++){
+    sum=sum+arr[i];
+
+   }
+   return sum;
+}
+console.log(findSum(arr));
+
+//other methode
+
+const output=arr.reduce(function(acc,curr){
+    acc=acc+curr;
+    return acc;
+},0);
+console.log(output);
+
+
+/*const user=[
     {firstName:"akshya ", lastName:"neje",age:"23"},
     {firstName:"oggy ", lastName:"gang",age:"101"},
     {firstName:"deepika ", lastName:"kale",age:"23"},
@@ -149,7 +170,7 @@ const outputs=user.reduce(function(acc,curr){
 
 },[]);
 
-console.log(outputs);
+console.log(outputs);*/
 
 
 
