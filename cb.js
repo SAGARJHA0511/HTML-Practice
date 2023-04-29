@@ -30,10 +30,24 @@ function myFirst() {
   }
   
   myFirst();
-  mySecond();*/
+  mySecond();
 
   let arr =[1,2,3,4,5];
   let obj ={...arr};
 
-  console.log(obj);
+  console.log(obj);*/
+
+  
+
+  for (let i in arr){
+    console.log(i);
+
+  }
+  for (let i of arr){
+    console.log(i);
+
+  }
+  const arr =[3,4,5,6];
+  arr.foo ="hi";
+
 
